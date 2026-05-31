@@ -8,7 +8,7 @@ I have challenged myself to solve SQL problems consistently for 21 days using **
 
 | Day | Topic | Problem Name & Platform | Status | Solution Link |
 | :--- | :--- | :--- | :--- | :--- |
-| Day 1 | Basic Select | Revising the Select Query I (HackerRank) | 🛠️ In Progress | [Link]() |
+| Day 1 | Basic Select & Filtering | Customer & Order Data Retrieval (MySQL Workbench) | ✅ Completed | [Solution Link](./Day01_Basic_Select.sql) |
 | Day 2 | Filtering | Show first name of patients that start with 'C' (SQL-Practice) | ⏳ Pending | - |
 | Day 3 | Distinct & Conditions | Weather Observation Station 3 (HackerRank) | ⏳ Pending | - |
 | Day 4 | Aggregate Functions | Total number of admissions (SQL-Practice) | ⏳ Pending | - |
