@@ -46,7 +46,3 @@ SELECT
     country
 FROM customers
 WHERE country = 'Germany'
-
-
-
--- Jo code aapne pehle se likha hai, use yahan paste karein:
