@@ -49,15 +49,4 @@ WHERE country = 'Germany'
 
 
 
--- 📁 PROBLEM 2: (Yahan apne dusre sawal ka naam likhein)
--- Jo code aapne pehle se likha hai, use yahan paste karein:
-
-
-
--- 📁 PROBLEM 3: (Yahan apne teesre sawal ka naam likhein)
--- Jo code aapne pehle se likha hai, use yahan paste karein:
-
-
-
--- 📁 PROBLEM 4: (Yahan apne chauthe sawal ka naam likhein)
 -- Jo code aapne pehle se likha hai, use yahan paste karein:
