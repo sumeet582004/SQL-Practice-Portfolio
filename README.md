@@ -1,6 +1,14 @@
 # 📊 21 Days Daily SQL Challenge
 
-I have challenged myself to solve SQL problems consistently for 21 days using **sql-practice.com** and HackerRank to strengthen my data analytics and querying skills!
+Welcome to my 21-Day SQL Learning & Practice Challenge! 🚀
+
+The goal of this challenge is to build a rock-solid foundation in SQL, moving systematically from **Basic queries to Advanced database concepts**. I am learning the core concepts through dedicated tech resources on YouTube and simultaneously puting my skills to the test by solving real-world challenges across multiple platforms.
+
+### 🛠️ Learning & Practice Strategy:
+* **Concepts & Theory:** Learning structured SQL concepts via YouTube tutorials.
+* **Local Implementation:** Writing and testing complex queries locally using **MySQL Workbench**.
+
+## 📅 Challenge Tracker
 
 ---
 
