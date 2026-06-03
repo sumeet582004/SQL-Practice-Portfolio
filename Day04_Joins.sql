@@ -9,6 +9,9 @@
         - INNER JOIN
         - LEFT JOIN
         - RIGHT JOIN
+         - FULL JOIN
+-- (NOTE- full join not work in mysql )
+   (for mysql we use union )
         - FULL JOIN
     
 =================================================================================
@@ -83,3 +86,20 @@ SELECT
 FROM customers AS c 
 FULL JOIN orders AS o 
 ON c.id = o.customer_id
+
+   
+-- FULL JOIN (Using UNION)
+/* MySQL doesn't support FULL OUTER JOIN directly. 
+   We achieve this by combining LEFT JOIN and RIGHT JOIN using UNION. 
+   This returns ALL records from both tables, matching where possible, 
+   and filling NULLs where there is no match. */
+   
+SELECT c.id, c.first_name, o.order_id, o.sales 
+FROM customers AS c 
+LEFT JOIN orders AS o ON c.id = o.customer_id
+
+UNION
+
+SELECT c.id, c.first_name, o.order_id, o.sales 
+FROM customers AS c 
+RIGHT JOIN orders AS o ON c.id = o.customer_id;
