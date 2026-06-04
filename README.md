@@ -20,7 +20,7 @@ The goal of this challenge is to build a rock-solid foundation in SQL, moving sy
 | Day 2 | Filtering & Aggregation | DESC, AVG, TOP, DISTINCT, SUM, GROUP BY, HAVING | ✅ Completed | [Solution Link](Day02_Filtering.sql) |
 | Day 3 | WHERE Clause | Basic Filtering & Operators | ✅ Completed | [Solution Link](https://github.com/sumeet582004/SQL-Practice-Portfolio/blob/main/Day03_WHERE_Clause.sql) |
 | Day 4 | SQL Joins (Basic) | INNER, LEFT, RIGHT JOIN Concepts (MySQL Workbench) | ✅ Completed | [Solution Link](Day04_Joins.sql) |
-| Day 5 | Group By | Top Earners (HackerRank) | ⏳ Pending | - |
+| Day 5 | Advanced Joins | Anti Joins, Cross Joins & 4-Table Joins (SalesDB) | ✅ Completed | [Solution Link](day_5_advanced_joins.sql) |
 | Day 6 | Joins (Basic) | Show patient name and their doctor's name (SQL-Practice) | ⏳ Pending | - |
 | Day 7 | Joins (Intermediate) | The Report (HackerRank) | ⏳ Pending | - |
 | Day 8 | String Functions | SQLZoo: SELECT from WORLD | ⏳ Pending | - |
