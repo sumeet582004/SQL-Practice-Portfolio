@@ -1,96 +1,102 @@
-        -Advanced Joins
-        - LEFT ANTI JOIN
-        - RIGHT ANTI JOIN
-        - ALTERNATIVE INNER JOIN
-        - FULL ANTI JOIN
-        - CROSS JOIN
-     3. Multiple Table Joins (4 Tables)
+/*
+  ==============================================================================
+  DAY 5: ADVANCED JOINS & MULTI-TABLE DATA ANALYTICS
+  Portfolio: SQL-Practice-Portfolio
+  ==============================================================================
+*/
 
-
-/* ============================================================================== 
-   ADVANCED JOINS
-=============================================================================== */
+-- ==============================================================================
+-- 1. ADVANCED JOINS (Anti Joins & Cross Joins)
+-- ==============================================================================
 
 -- LEFT ANTI JOIN
-/* Get all customers who haven't placed any order */
-SELECT *
+-- Task: Get all customers who haven't placed any order
+SELECT 
+    c.id, 
+    c.first_name, 
+    c.last_name
 FROM customers AS c
-LEFT JOIN orders AS o
-ON c.id = o.customer_id
-WHERE o.customer_id IS NULL
+LEFT JOIN orders AS o 
+    ON c.id = o.customer_id
+WHERE o.customer_id IS NULL;
+
 
 -- RIGHT ANTI JOIN
-/* Get all orders without matching customers */
-SELECT *
+-- Task: Get all orders without matching customers
+SELECT 
+    o.order_id, 
+    o.sales
 FROM customers AS c
-RIGHT JOIN orders AS o
-ON c.id = o.customer_id
-WHERE c.id IS NULL
+RIGHT JOIN orders AS o 
+    ON c.id = o.customer_id
+WHERE c.id IS NULL;
 
--- Alternative to RIGHT ANTI JOIN using LEFT JOIN
-/* Get all orders without matching customers */
-SELECT *
-FROM orders AS o 
-LEFT JOIN customers AS c
-ON c.id = o.customer_id
-WHERE c.id IS NULL
 
--- Alternative to INNER JOIN using LEFT JOIN
-/* Get all customers along with their orders, 
-   but only for customers who have placed an order */
-SELECT *
+-- ALTERNATIVE TO RIGHT ANTI JOIN (Using LEFT JOIN)
+SELECT 
+    o.order_id, 
+    o.sales
+FROM orders AS o
+LEFT JOIN customers AS c 
+    ON c.id = o.customer_id
+WHERE c.id IS NULL;
+
+
+-- ALTERNATIVE TO INNER JOIN (Using LEFT JOIN)
+SELECT 
+    c.id, 
+    c.first_name, 
+    o.order_id, 
+    o.sales
 FROM customers AS c
-LEFT JOIN orders AS o
-ON c.id = o.customer_id
-WHERE o.customer_id IS NOT NULL
+LEFT JOIN orders AS o 
+    ON c.id = o.customer_id
+WHERE o.customer_id IS NOT NULL;
+
 
 -- FULL ANTI JOIN
-/* Find customers without orders and orders without customers */
-SELECT
-    c.id,
-    c.first_name,
-    o.order_id,
-    o.customer_id,
+SELECT 
+    c.id, 
+    c.first_name, 
+    o.order_id, 
+    o.customer_id, 
     o.sales
-FROM customers AS c 
+FROM customers AS c
 FULL JOIN orders AS o 
-ON c.id = o.customer_id
-WHERE o.customer_id IS NULL OR c.id IS NULL
+    ON c.id = o.customer_id
+WHERE o.customer_id IS NULL 
+   OR c.id IS NULL;
+
 
 -- CROSS JOIN
-/* Generate all possible combinations of customers and orders */
-SELECT *
-FROM customers
-CROSS JOIN orders
+SELECT 
+    c.id, 
+    c.first_name, 
+    o.order_id, 
+    o.sales
+FROM customers AS c
+CROSS JOIN orders AS o;
 
-/* ============================================================================== 
-   MULTIPLE TABLE JOINS (4 Tables)
-=============================================================================== */
 
-/* Task: Using SalesDB, Retrieve a list of all orders, along with the related customer, product, 
-   and employee details. For each order, display:
-   - Order ID
-   - Customer's name
-   - Product name
-   - Sales amount
-   - Product price
-   - Salesperson's name */
+-- ==============================================================================
+-- 2. MULTIPLE TABLE JOINS (4 Tables Complex Analysis)
+-- ==============================================================================
 
-USE SalesDB
+USE SalesDB;
 
 SELECT 
-    o.OrderID,
-    o.Sales,
-    c.FirstName AS CustomerFirstName,
-    c.LastName AS CustomerLastName,
-    p.Product AS ProductName,
-    p.Price,
-    e.FirstName AS EmployeeFirstName,
+    o.OrderID, 
+    o.Sales, 
+    c.FirstName AS CustomerFirstName, 
+    c.LastName AS CustomerLastName, 
+    p.Product AS ProductName, 
+    p.Price, 
+    e.FirstName AS EmployeeFirstName, 
     e.LastName AS EmployeeLastName
 FROM Sales.Orders AS o
-LEFT JOIN Sales.Customers AS c
-ON o.CustomerID = c.CustomerID
-LEFT JOIN Sales.Products AS p
-ON o.ProductID = p.ProductID
-LEFT JOIN Sales.Employees AS e
-ON o.SalesPersonID = e.EmployeeID
+LEFT JOIN Sales.Customers AS c 
+    ON o.CustomerID = c.CustomerID
+LEFT JOIN Sales.Products AS p 
+    ON o.ProductID = p.ProductID
+LEFT JOIN Sales.Employees AS e 
+    ON o.SalesPersonID = e.EmployeeID;
