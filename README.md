@@ -22,7 +22,7 @@ The goal of this challenge is to build a rock-solid foundation in SQL, moving sy
 | Day 4 | SQL Joins (Basic) | INNER, LEFT, RIGHT JOIN Concepts (MySQL Workbench) | ✅ Completed | [Solution Link](Day04_Joins.sql) |
 | Day 5 | Advanced Joins | Anti Joins, Cross Joins & 4-Table Joins (SalesDB) | ✅ Completed | [Solution Link](day_5_advanced_joins.sql) |
 | Day 6 | Set Operations | UNION, UNION ALL, EXCEPT, INTERSECT Concepts | ✅ Completed | [Solution Link](./sql-set-operations.sql) |
-| Day 7 | Joins (Intermediate) | The Report (HackerRank) | ⏳ Pending | - |
+| Day 7 | String Functions | SQLZoo: SELECT from WORLD & Basic Functions | ✅ Completed | [Solution Link](./Day07_String_Functions.sql) |
 | Day 8 | String Functions | SQLZoo: SELECT from WORLD | ⏳ Pending | - |
 | Day 9 | CASE WHEN | Type of Triangle (HackerRank) | ⏳ Pending | - |
 | Day 10 | Subqueries | SQLZoo: SELECT within SELECT | ⏳ Pending | - |
