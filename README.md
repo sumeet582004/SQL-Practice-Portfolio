@@ -20,7 +20,7 @@ The goal of this challenge is to build a rock-solid foundation in SQL, moving sy
 | Day 2 | Filtering & Aggregation | DESC, AVG, TOP, DISTINCT, SUM, GROUP BY, HAVING | ✅ Completed | [Solution Link](Day02_Filtering.sql) |
 | Day 3 | WHERE Clause | Basic Filtering & Operators | ✅ Completed | [Solution Link](https://github.com/sumeet582004/SQL-Practice-Portfolio/blob/main/Day03_WHERE_Clause.sql) |
 | Day 4 | SQL Joins (Basic) | INNER, LEFT, RIGHT JOIN Concepts (MySQL Workbench) | ✅ Completed | [Solution Link](Day04_Joins.sql) |
-| Day 5 | Advanced Joins | Anti Joins, Cross Joins & 4-Table Joins (SalesDB) | ✅ Completed | [Solution Link](Day_5_advanced_joins.sql) |
+| Day 5 | Advanced Joins | Anti Joins, Cross Joins & 4-Table Joins (SalesDB) | ✅ Completed | [Solution Link](Day05_Advanced_Joins.sql) |
 | Day 6 | Set Operations | UNION, UNION ALL, EXCEPT, INTERSECT Concepts | ✅ Completed | [Solution Link](./Day06_Set_Operations.sql) |
 | Day 7 | String Functions | SQLZoo: SELECT from WORLD & Basic Functions | ✅ Completed | [Solution Link](./Day07_String_Functions.sql) |
 | Day 8 | Date Functions | SQL Date & Time Functions | ✅ Completed | [Solution Link](./Day08_Date_Functions.sql) |
