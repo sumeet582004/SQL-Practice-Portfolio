@@ -5,7 +5,7 @@ Welcome to my 21-Day SQL Learning & Practice Challenge! 🚀
 The goal of this challenge is to build a rock-solid foundation in SQL, moving systematically from **Basic queries to Advanced database concepts**. I am learning the core concepts through dedicated tech resources on YouTube and simultaneously puting my skills to the test by solving real-world challenges across multiple platforms.
 
 ### 🛠️ Learning & Practice Strategy:
-* **Concepts & Theory:** Learning structured SQL concepts via YouTube tutorials.
+* **Concepts & Theory:** Learning structured SQL concepts via YouTube tutorials, documentation websites like W3Schools, and various tech blogs.
 * **Local Implementation:** Writing and testing complex queries locally using **MySQL Workbench**.
 
 ## 📅 Challenge Tracker
