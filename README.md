@@ -24,5 +24,5 @@ The goal of this challenge is to build a rock-solid foundation in SQL, moving sy
 | Day 6 | Set Operations | UNION, UNION ALL, EXCEPT, INTERSECT Concepts | ✅ Completed | [Solution Link](./Day06_Set_Operations.sql) |
 | Day 7 | String Functions | SQLZoo: SELECT from WORLD & Basic Functions | ✅ Completed | [Solution Link](./Day07_String_Functions.sql) |
 | Day 8 | Date Functions | SQL Date & Time Functions | ✅ Completed | [Solution Link](./Day08_Date_Functions.sql) |
-| Day 9 | CASE WHEN | Type of Triangle (HackerRank) | ⏳ Pending | - |
+| Day 9 | NULL Functions | SQL NULL Functions (MySQL Workbench) | ✅ Completed | [Solution Link](./Day_09_SQL_NULL_Functions.sql) |
 | Day 10 | Subqueries | SQLZoo: SELECT within SELECT | ⏳ Pending | - |
