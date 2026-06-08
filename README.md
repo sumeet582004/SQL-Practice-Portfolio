@@ -15,7 +15,6 @@ The goal of this challenge is to build a rock-solid foundation in SQL, moving sy
 ### 📅 Challenge Tracker
 
 | Day | Topic | Problem Name & Platform | Status | Solution Link |
-
 | ----- | ----- | ----- | ----- | ----- |
 | Day 1 | Basic Select & Filtering | Customer & Order Data Retrieval (MySQL Workbench) | ✅ Completed | [Solution Link](./Day_01_Basic_Select.sql) |
 | Day 2 | Filtering & Aggregation | DESC, AVG, TOP, DISTINCT, SUM, GROUP BY, HAVING | ✅ Completed | [Solution Link](./Day_02_Filtering_Aggregation.sql) |
