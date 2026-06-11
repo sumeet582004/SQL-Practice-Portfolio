@@ -22,13 +22,12 @@ The goal of this challenge is to build a rock-solid foundation in SQL, moving sy
 | Day 4 | SQL Joins (Basic) | INNER, LEFT, RIGHT JOIN Concepts (MySQL Workbench) | ✅ Completed | [Solution Link](./Day_04_SQL_Joins.sql) |
 | Day 5 | Advanced Joins | Anti Joins, Cross Joins & 4-Table Joins (SalesDB) | ✅ Completed | [Solution Link](./Day_05_Advanced_Joins.sql) |
 | Day 6 | Set Operations | UNION, UNION ALL, EXCEPT, INTERSECT Concepts | ✅ Completed | [Solution Link](./Day_06_Set_Operations.sql) |
-| Day 7 | String Functions | SQLZoo: SELECT from WORLD & Basic Functions | ✅ Completed | [Solution Link](./Day_07_String_Functions.sql) |
-| Day 8 | Date Functions | SQL Date & Time Functions | ✅ Completed | [Solution Link](./Day_08_Date_Functions.sql) |
-| Day 9 | NULL Functions | SQL NULL Functions (MySQL Workbench) | ✅ Completed | [Solution Link](./Day_09_SQL_NULL_Functions.sql) |
-| Day 10 | Conditional Logic | Case Statements & Data Cleaning | ✅ Completed | [Solution Link](./Day10_Case_Statements.sql) |
-| Day 11 | Aggregate Functions | SUM, AVG, COUNT, MIN, MAX, GROUP BY, HAVING | ✅ Completed | [Solution Link](./Day_11_aggregate_functions.sql) |
-| Day 12 | Window Functions (Basics) | Introduction to OVER() & PARTITION BY |  Completed | [Solution Link](Day12-window-functions-basics.sql) |
-| Day 13 | CTE (Common Table Expressions) | WITH Clause & Recursive Queries | ⏳ Pending | - |
+| Day 7 | String Functions | String Functions Practice (Upper, Lower, Concat, etc.) | ✅ Completed | [Solution Link](Day07_String_Functions.sql) |
+| Day 8 | Date Functions | SQL Date & Time Functions | ✅ Completed | [Solution Link](Day08_Date_Functions.sql) |
+| Day 9 | NULL Functions | SQL NULL Functions (MySQL Workbench) | ✅ Completed | [Solution Link](Day_09_SQL_NULL_Functions.sql) |
+| Day 10 | Conditional Logic | Case Statements & Data Cleaning | ✅ Completed | [Solution Link](Day10-case-statements.sql) |
+| Day 11 | Aggregate Functions | SUM, AVG, COUNT, MIN, MAX, GROUP BY, HAVING | ✅ Completed | [Solution Link](Day_11_aggregate_functions.sql) |
+| Day 12 | Window Functions (Basics) | Introduction to OVER() & PARTITION BY | ✅ Completed | [Solution Link](Day12-window-functions-basics.sql) |
 | Day 13 | Window Functions (Part 1) | ROW_NUMBER, RANK, DENSE_RANK | ⏳ Pending | - |
 | Day 14 | Window Functions (Part 2) | LEAD, LAG, FIRST_VALUE, LAST_VALUE | ⏳ Pending | - |
 | Day 15 | Case Statements | Advanced Conditional Logic | ⏳ Pending | - |
