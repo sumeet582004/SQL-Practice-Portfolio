@@ -29,8 +29,8 @@ The goal of this challenge is to build a rock-solid foundation in SQL, moving sy
 | Day 11 | Aggregate Functions | SUM, AVG, COUNT, MIN, MAX, GROUP BY, HAVING | ✅ Completed | [Solution Link](Day_11_aggregate_functions.sql) |
 | Day 12 | Window Functions (Basics) | Introduction to OVER() & PARTITION BY | ✅ Completed | [Solution Link](Day12-window-functions-basics.sql) |
 | Day 13 | Window Functions (Part 1) | ROW_NUMBER, RANK, DENSE_RANK | ✅ Completed | [Solution Link](Day13_SQL_Window_Aggregation.sql) |
-| Day 14 | Window Functions (Part 2) | LEAD, LAG, FIRST_VALUE, LAST_VALUE | ⏳ Pending | - | 
-| Day 15 | Case Statements | Advanced Conditional Logic | ⏳ Pending | - |
+| Day 14 | Window Functions (Part 1) | ROW_NUMBER, RANK, DENSE_RANK | ✅ Completed | [Solution Link](./Day14_Window_Functions_Rank.sql) |
+| Day 15 | Window Functions (Part 2) | LEAD, LAG, FIRST_VALUE, LAST_VALUE | ⏳ Pending | [Solution Link](./Day15_window_value_functions.sql) |
 | Day 16 | Data Modifications | INSERT, UPDATE, DELETE & Transactions | ⏳ Pending | - |
 | Day 17 | Table Views & Indexing | CREATE VIEW, Indexes for Performance | ⏳ Pending | - |
 | Day 18 | Stored Procedures | Basics of Stored Procedures in MySQL | ⏳ Pending | - |
