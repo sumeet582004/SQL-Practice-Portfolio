@@ -32,7 +32,7 @@ The goal of this challenge is to build a rock-solid foundation in SQL, moving sy
 | Day 14 | Window Functions (Rank) | ROW_NUMBER, RANK, DENSE_RANK | ✅ Completed | [Solution Link](./Day14_Window_Functions_Rank.sqll) |
 | Day 15 | Window Functions (Part 3) | LEAD, LAG, FIRST_VALUE, LAST_VALUE | ✅ Completed  | [Solution Link](./Day15_window_value_functions.sql) |
 | Day 16 | Subqueries | Introduction to Subqueries & Nested Queries | ✅ Completed | [Solution Link](./Day16_subquery.sql) |
-| Day 17 | Table Views & Indexing | CREATE VIEW, Indexes for Performance | ⏳ Pending | - |
+| Day 17 | Common Table Expressions (CTEs) | WITH clause, Recursive & Nested CTEs | ✅ Completed | [Solution Link](./Day17_CTEs.sql) |
 | Day 18 | Stored Procedures | Basics of Stored Procedures in MySQL | ⏳ Pending | - |
 | Day 19 | User-Defined Functions | Creating Custom Functions | ⏳ Pending | - |
 | Day 20 | Database Design & Normalization| 1NF, 2NF, 3NF Concepts & ER Diagrams | ⏳ Pending | - |
