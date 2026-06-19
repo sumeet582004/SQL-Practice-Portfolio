@@ -33,7 +33,7 @@ The goal of this challenge is to build a rock-solid foundation in SQL, moving sy
 | Day 15 | Window Functions (Part 3) | LEAD, LAG, FIRST_VALUE, LAST_VALUE | ✅ Completed  | [Solution Link](./Day15_window_value_functions.sql) |
 | Day 16 | Subqueries | Introduction to Subqueries & Nested Queries | ✅ Completed | [Solution Link](./Day16_subquery.sql) |
 | Day 17 | Common Table Expressions (CTEs) | WITH clause, Recursive & Nested CTEs | ✅ Completed | [Solution Link](./Day17_CTEs.sql) |
-| Day 18 | Stored Procedures | Basics of Stored Procedures in MySQL | ⏳ Pending | - |
+| Day 18 | SQL Views | Introduction to Views & Data Security | ✅ Completed | [Solution Link](./Day_18_views.sql) |
 | Day 19 | User-Defined Functions | Creating Custom Functions | ⏳ Pending | - |
 | Day 20 | Database Design & Normalization| 1NF, 2NF, 3NF Concepts & ER Diagrams | ⏳ Pending | - |
 | Day 21 | Capstone Project / Mock Test | Real-world Case Study & Interview Questions | ⏳ Pending | - |
