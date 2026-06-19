@@ -25,12 +25,12 @@ The goal of this challenge is to build a rock-solid foundation in SQL, moving sy
 | Day 7 | String Functions | String Functions Practice (Upper, Lower, Concat, etc.) | ✅ Completed | [Solution Link](Day07_String_Functions.sql) |
 | Day 8 | Date Functions | SQL Date & Time Functions | ✅ Completed | [Solution Link](Day08_Date_Functions.sql) |
 | Day 9 | NULL Functions | SQL NULL Functions (MySQL Workbench) | ✅ Completed | [Solution Link](Day_09_SQL_NULL_Functions.sql) |
-| Day 10 | Conditional Logic | Case Statements & Data Cleaning | ✅ Completed | [Solution Link](Day10-case-statements.sql) |
+| Day 10 | case statement | Case Statements & Data Cleaning | ✅ Completed | [Solution Link](Day10-case-statements.sql) |
 | Day 11 | Aggregate Functions | SUM, AVG, COUNT, MIN, MAX, GROUP BY, HAVING | ✅ Completed | [Solution Link](Day_11_aggregate_functions.sql) |
 | Day 12 | Window Functions (Basics) | Introduction to OVER() & PARTITION BY | ✅ Completed | [Solution Link](Day12-window-functions-basics.sql) |
 | Day 13 | Window Functions (Aggregation) | SUM(), AVG(), COUNT() with OVER() & PARTITION BY | ✅ Completed | [Solution Link](./Day13_SQL_Window_Aggregation.sql) |
 | Day 14 | Window Functions (Rank) | ROW_NUMBER, RANK, DENSE_RANK | ✅ Completed | [Solution Link](./Day14_Window_Functions_Rank.sqll) |
-| Day 15 | Window Functions (Part 3) | LEAD, LAG, FIRST_VALUE, LAST_VALUE | ✅ Completed  | [Solution Link](./Day15_window_value_functions.sql) |
+| Day 15 | Window Functions (value) | LEAD, LAG, FIRST_VALUE, LAST_VALUE | ✅ Completed  | [Solution Link](./Day15_window_value_functions.sql) |
 | Day 16 | Subqueries | Introduction to Subqueries & Nested Queries | ✅ Completed | [Solution Link](./Day16_subquery.sql) |
 | Day 17 | Common Table Expressions (CTEs) | WITH clause, Recursive & Nested CTEs | ✅ Completed | [Solution Link](./Day17_CTEs.sql) |
 | Day 18 | SQL Views | Introduction to Views & Data Security | ✅ Completed | [Solution Link](./Day_18_views.sql) |
