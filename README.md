@@ -1,6 +1,6 @@
 # 📊 21 Days Daily SQL Challenge
 
-Welcome to my 21-Day SQL Learning & Practice Challenge! 🚀
+Welcome to my 18-Day SQL Learning & Practice Challenge! 🚀
 
 The goal of this challenge is to build a rock-solid foundation in SQL, moving systematically from **Basic queries to Advanced database concepts**. I am learning the core concepts through dedicated tech resources on YouTube and simultaneously puting my skills to the test by solving real-world challenges across multiple platforms.
 
@@ -34,6 +34,4 @@ The goal of this challenge is to build a rock-solid foundation in SQL, moving sy
 | Day 16 | Subqueries | Introduction to Subqueries & Nested Queries | ✅ Completed | [Solution Link](./Day16_subquery.sql) |
 | Day 17 | Common Table Expressions (CTEs) | WITH clause, Recursive & Nested CTEs | ✅ Completed | [Solution Link](./Day17_CTEs.sql) |
 | Day 18 | SQL Views | Introduction to Views & Data Security | ✅ Completed | [Solution Link](./Day_18_views.sql) |
-| Day 19 | User-Defined Functions | Creating Custom Functions | ⏳ Pending | - |
-| Day 20 | Database Design & Normalization| 1NF, 2NF, 3NF Concepts & ER Diagrams | ⏳ Pending | - |
-| Day 21 | Capstone Project / Mock Test | Real-world Case Study & Interview Questions | ⏳ Pending | - |
+
