@@ -1,4 +1,4 @@
-# 📊 21 Days Daily SQL Challenge
+# 📊 18 Days Daily SQL Challenge
 
 Welcome to my 18-Day SQL Learning & Practice Challenge! 🚀
 
